@@ -1,0 +1,198 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Microsoft GLTF Exporter 2.4.2.8"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 972,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC3",
+      "max": [
+        152,
+        96,
+        151.16700744628906
+      ],
+      "min": [
+        -152,
+        0,
+        -151.16700744628906
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 544,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1944,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1944,
+      "byteLength": 6528,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8472,
+      "byteLength": 6528,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15000,
+      "byteLength": 4352,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "carousel-bottom_data.bin",
+      "byteLength": 19352
+    }
+  ],
+  "images": [
+    {
+      "uri": "carousel-bottom_img0.png"
+    },
+    {
+      "uri": "carousel-bottom_img1.png"
+    },
+    {
+      "uri": "carousel-bottom_img2.png"
+    },
+    {
+      "uri": "carousel-bottom_img3.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "33",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "extras": {
+        "MSFT_sRGBFactors": false
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_id6",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root"
+    },
+    {
+      "translation": [
+        0.006288787815719843,
+        -0.05554456263780594,
+        0.24828433990478516
+      ],
+      "rotation": [
+        0.09043429791927338,
+        -0.42614442110061646,
+        0.019007770344614983,
+        0.8999229073524475
+      ],
+      "scale": [
+        0.0011772800935432315,
+        0.0011772802099585533,
+        0.0011772800935432315
+      ],
+      "mesh": 0,
+      "name": "node_id5"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "textures": [
+    {
+      "name": "texture3",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "texture4",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "33_bc",
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "name": "33_mr",
+      "sampler": 0,
+      "source": 3
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
